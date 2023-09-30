@@ -31,7 +31,7 @@ body {
   
 .down {
     transform-origin: down center;
-    transform: translateY(-50%);
+    transform: translateY(-10%);
 }
 
 .slide-in {

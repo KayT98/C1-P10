@@ -81,16 +81,17 @@ footer h1 {
 .skills {
     margin-top: 150px;
     grid-area: skills;
-    border-radius: 20px;
     font-family: 'Handjet', cursive;
-    color: #EFDCCE
+    color: #EFDCCE;
 }
   
 .contact{
     grid-area: contact;
     text-align: center;
 }
-
+#project {
+    margin-bottom: 100px;
+}
 #nav {
     width: 100%;
     font-size: 3em;
