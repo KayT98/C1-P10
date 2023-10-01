@@ -4,11 +4,12 @@ window.onload = function () {
     if (!username) {
         username = prompt('May I know your name?');
     }
-    if (username != ' ') {
-        document.getElementById('name').innerHTML = `Howdy ${username}! My name is kay`
+    
+    if (username !== '') {
+        document.getElementById('name').innerHTML = `Howdy ${username}! My name is Kay`;
         sessionStorage.setItem('name', username);
     } 
     else {
-        document.getElementById('name').innerHTML = 'Howdy Stranger! My name is kay';
+        document.getElementById('name').innerHTML = 'Howdy Stranger! My name is Kay';
     }
 }

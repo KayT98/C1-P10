@@ -3,6 +3,12 @@
 html,body {
   cursor: url('../images/cursor.png'), auto; 
   background: url('../images/sky.jpg') no-repeat center center fixed;
+  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     box-sizing: border-box;
+     padding: 0; margin: 0;
 }
 #slider {
     position: absolute;
