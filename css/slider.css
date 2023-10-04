@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Kanit:wght@300&family=Roboto:wght@900&family=Saira+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Handjet:wght@500&family=Kanit:wght@300&family=Noto+Serif+Vithkuqi&family=Roboto:wght@900&family=Saira+Condensed&display=swap');
 html,body {
-  cursor: url('../images/cursor.png'), auto; 
-  background: url('../images/sky.jpg') no-repeat center center fixed;
-  background-size: cover;
+    cursor: url('../images/cursor.png'), auto; 
+    background: url('../images/sky.jpg') no-repeat center center fixed;
+    background-size: cover;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -19,7 +19,7 @@ html,body {
     transform: translate(-50%, -50%);
   }
   
-  #slider img {
+#slider img {
     position: absolute;
     top: 0;
     left: 0;
@@ -28,10 +28,10 @@ html,body {
     opacity: 0;
     transition: all 1s ease-in-out;
   }
-  #slider img.active {
+#slider img.active {
     opacity: 1;
   }
-  button {
+button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -46,19 +46,19 @@ html,body {
     cursor: url('../images/cursor.png'), auto; 
     transition: all 200ms ease-in-out;
   }
-  button:hover {
+button:hover {
     background-color: steelblue;
   }
-  button#prev {
+button#prev {
     left: -35px;
     padding: 7px 17px 7px 15px;
   }
   
-  button#next {
+button#next {
     right: -35px;
     padding: 7px 15px 7px 17px;
   }
-  nav {
+nav {
     width: 100%;
     font-size: 1em;
     display: flex;
